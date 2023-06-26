@@ -1,6 +1,10 @@
+//find Lcm of only two numbers
+// find gcd of two numbers
+
 public class Main
 {
     // Recursive method to return gcd of a and b
+    //calculate gcd of only two no.
     static int gcd(int a, int b)
     {
         if (a == 0)
@@ -21,5 +25,12 @@ public class Main
         System.out.println("LCM of " + a +
                 " and " + b +
                 " is " + lcm(a, b));
+         System.out.println("gcd of " + a +
+                " and " + b +
+                " is " + gcd(a, b));
+        
     }
 }
+//output : LCM of 15 and 20 is 60
+ //          gcd of 15 and 20 is 5
+
